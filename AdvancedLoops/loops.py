@@ -11,9 +11,9 @@ def PlayingBoard(rows,columns):
 			break		
 
 		if num%2 == 0:					
-			print(" | "*columns)
+			print(" | "*rows)
 		else:
-			print("---"*rows)
+			print("---"*columns)
 
 	
 
